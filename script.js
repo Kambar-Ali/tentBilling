@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         doc.text('Rahat Tent House', doc.internal.pageSize.getWidth() / 2, 20, { align: 'center' });
         doc.setFontSize(10);
         doc.text('Mohalla Kot, Near Shahi Jama Masjid, Barwar Kheri', doc.internal.pageSize.getWidth() / 2, 27, { align: 'center' });
-        doc.text('Rahat Zaidi: +91 8299001510 | Haider Abbas: +91 9936298868', doc.internal.pageSize.getWidth() / 2, 34, { align: 'center' });
+        doc.text('Rahat Zaidi: +918299001510 | Haider Abbas: +919936298868', doc.internal.pageSize.getWidth() / 2, 34, { align: 'center' });
 
         doc.text(`Customer Name: ${customerName}`, 15, 45);
         doc.text(`Contact: ${customerContact}`, 15, 40);
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         doc.text('Thank you for choosing Rahat Tent House!', doc.internal.pageSize.getWidth() / 2, doc.autoTable.previous.finalY + 20, { align: 'center' });
 
-        doc.text('© 2025 Rahat Tent House | Developed by Prince Zaidi (+91 9125241370)', 
+        doc.text('© 2025 Rahat Tent House | Developed by (Kambar Ali) Prince Zaidi (+91 9125241370)', 
             doc.internal.pageSize.getWidth() / 2, 
             doc.internal.pageSize.getHeight() - 10, 
             { align: 'center' }
